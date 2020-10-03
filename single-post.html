@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - sinple post page</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/base.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/components.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/utilities.min.css" />
+</head>
+
+<body class="bg-gray-200">
+    <div class="container mx-auto">
+        <div class="mx-8 md:mx-0">
+
+            <nav class="flex justify-between items-center py-5">
+                <div>
+                    <a>
+                        <img class="w-auto h-12 object-cover" src="logo.png" width="112" height="28">
+                    </a>
+                </div>
+
+                <div class="space-x-8 space-x-reverse">
+                    <a class="bg-green-500 py-2 px-3 rounded-lg text-white" href="register.html">
+                        <strong>ثبت نام</strong>
+                    </a>
+                    <a class="border border-green-500 py-2 px-3 rounded-lg" href="login.html">
+                        ورود
+                    </a>
+                </div>
+            </nav>
+
+            <div class="border border-gray-400"></div>
+        </div>
+
+        <div class="mx-8 md:mx-0">
+            <div class="flex flex-col mx-auto my-24 space-y-6 w-full md:w-2/3 lg:w-1/2">
+                <h1 class="mx-auto text-3xl text-gray-800 font-semibold">
+                    اسکرام (توسعه نرم‌افزار)
+                </h1>
+                <div>
+                    <img class="h-full w-full object-cover rounded-lg"
+                        src="https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg">
+                </div>
+                <div class="prose sm:prose-lg md:prose-xl leading-10">
+                    <span>
+                        اسکرام یک چارچوب تولید نرم‌افزار از سری روشهای تفکر چابک (Agile) می‌باشد.
+
+                        اسکرام یک چارچوب یا فرایند؟ مسئله این است، دراین موضوع کاملاً بین متخصصان اسکرام دوگانگی وجود
+                        دارد.
+                        اشخاصی مانند کن شوئبر (مبدع اسکرام) دائماً از لفظ چارچوب(framework) استفاده می‌کنند و تأکید
+                        می‌نمایند که همه باید این مورد را قبول داشته باشند ولی بعضی دیگر از دوستان از لفظ فرایند یا
+                        متدولوژی
+                        برای اسکرام استفاده می‌کنند.
+                    </span>
+                    <h2>
+                        مشخصات
+                    </h2>
+                    <span>
+                        با اینکه روش اسکرام در واقع یک روش برای کل فرایند تولید نرم‌افزار در پروژه‌ها به شمار می‌رود اما
+                        اختصاصاً برای کنترل پروژه نرم‌افزار استفاده می‌گردد، همچنین امکان استفاده از این روش در نگهداری
+                        و
+                        پشتیبانی نرم‌افزار به عنوان برنامه و خط مشی عمومی وجود دارد.
+
+                        اسکرام دربردارنده مجموعه‌ای از روش (Practice)ها و نقش‌های از قبل تعریف شده‌است اما سه ویژگی است
+                        که
+                        پایه‌های وجودی اسکرام هستند:
+
+                        ۱- شفافیت و روشنی Transparency: یعنی اینکه تمام جنبه‌های مختلف فرایند که بر خروجی آن اثر
+                        می‌گذارد
+                        بایستی برای آنهایی که فرایند را کنترل می‌کنند مشهود و قابل دید باشد. نه فقط این جنبه‌ها باید
+                        شفاف
+                        باشد بلکه بایستی مشخص و معلوم هم باشند یعنی اگر کسی که فرایند را ممیزی می‌کند تشخیص دهد که چه
+                        چیزی
+                        انجام شده، این باید مطابق با تعریف انجام شده Done از دید تمام افراد درگیر در پروژه باشد. اگر
+                        توافقی
+                        بین همه طرف‌های درگیر در پروژه بر سر معانی و مفاهیم نباشد، مشهود بودن اینکه یک قابلیت یا ویژگی
+                        انجام
+                        شده یا خیر، دیگر محلی از اعراب ندارند.
+
+                        ۲- ممیزی و وارسی Inspection: جنبه‌های مختلف فرایند تولید نرم‌افزار باید دائماً وارسی و چک شوند
+                        که
+                        انحرافات فرایند قابل تشخیص باشد.
+
+                        ۳- انطباق Adaptation: اگر بازرس تشخیص داد که یک یا چند جنبه از فرایند خارج از حدود قابل قبول است
+                        و
+                        باعث غیرقابل پذیرش شدن محصول تولیدی می‌شود، باید فرایند یا آنچه که فرایند بر روی آن انجام می‌شود
+                        را
+                        تنظیم و تعدیل کند. این کار باید در سریعترین زمان ممکنه انجام شود تا از انحرافات بیشتر جلوگیری
+                        شود.
+                    </span>
+                    <p><strong>منبع:</strong> ویکیپیدیا</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
